@@ -1,7 +1,7 @@
 # Calculadora Básica en Java
 
 ## 📝 Descripción  
-Este proyecto es una calculadora básica desarrollada en Java para la materia de Ingenieria de Software I que permite realizar operaciones matemáticas fundamentales (suma, resta, multiplicación y división) a través de una interfaz de consola. La calculadora está diseñada para ser intuitiva y fácil de usar, con validaciones robustas para garantizar la correcta entrada de datos.
+Aplicación de consola desarrollada como proyecto académico para la asignatura Ingeniería de Software I, que implementa una calculadora básica conforme a los requerimientos funcionales especificados por el cliente. La calculadora está diseñada para ser intuitiva y fácil de usar, con validaciones para garantizar la correcta entrada de datos.
 
 ## ✨ Características  
 | **Operaciones** | **Validaciones** | **Interfaz** |  
