@@ -1,4 +1,4 @@
-# Calculadora Básica en Java
+# Calculadora Básica
 
 ## 📝 Descripción  
 Aplicación de consola desarrollada como proyecto académico para la asignatura Ingeniería de Software I, que implementa una calculadora básica conforme a los requerimientos funcionales especificados por el cliente. La calculadora está diseñada para ser intuitiva y fácil de usar, con validaciones para garantizar la correcta entrada de datos.
