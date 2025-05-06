@@ -51,9 +51,47 @@ Resultado: 5
 ¿Repetir? (Y/N): N
 ```
 
+## 📖 Documentación Técnica
+
+La documentación automática del proyecto se genera con [Doxygen](https://www.doxygen.nl/). Incluye:
+- Diagramas de clases y herencia
+- Manual de uso de cada componente
+- Especificaciones técnicas
+
+### 📚 Como usar? 
+
+1. Primero requiere tener instalado Doxygen con Graphviz
+    `````bash
+    # Linux (Debian/Ubuntu)
+    sudo apt install doxygen graphviz
+
+    # macOS (Homebrew)
+    brew install doxygen graphviz
+
+    # Windows (Chocolatey)
+    choco install doxygen graphviz
+    `````
+
+2. Ejecutar Doxygen desde la raíz del proyecto:
+    ````bash 
+    doxygen Doxyfile
+    ````
+
+3. Ver la documentacion generada ejecutando el siguiente comando:
+    ````bash 
+    start docs/html/index.html
+    ````
+
+### 🌟 Características de la documentación
+
+- Diagramas de clases automáticos
+- Referencia completa de métodos
+- Modo oscuro incluido
+- Búsqueda interactiva
+
 ## 📌 Notas
 
-📅 Fecha: 28/03/2025
+📅 Fecha: 05/06/2025
 
 👥 Grupo: 7
 

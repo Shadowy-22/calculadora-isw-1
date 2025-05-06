@@ -1,10 +1,20 @@
-import Factories.OperacionFactory;
-import Interfaces.IOperacion;
-import Validators.EntradaUsuario;
+package CalculadoraBasica;
 
+import CalculadoraBasica.Factories.OperacionFactory;
+import CalculadoraBasica.Interfaces.IOperacion;
+import CalculadoraBasica.Validators.EntradaUsuario;
+
+/**
+ * Clase principal que implementa una calculadora con operaciones básicas.
+ * Maneja el flujo principal de la aplicación y la interacción con el usuario.
+ */
 public class Calculadora {
 
-        public static void main(String[] args) {
+    /**
+     * Punto de entrada principal de la aplicación.
+     * @param args Argumentos de línea de comandos (no utilizados)
+     */
+    public static void main(String[] args) {
         while (true) {
             mostrarMenu();
             int opcion = EntradaUsuario.leerOpcionMenu();
@@ -19,6 +29,9 @@ public class Calculadora {
         }
     }
 
+    /**
+     * Muestra el menú principal de la calculadora.
+     */
     private static void mostrarMenu() {
         System.out.print("""
             *** CALCULADORA BÁSICA ***
@@ -32,6 +45,10 @@ public class Calculadora {
             Seleccione una opción [0-4]: """);
     }
 
+    /**
+     * Ejecuta una operación matemática seleccionada.
+     * @param operacion Operación a ejecutar (implementación de IOperacion)
+     */
     private static void ejecutarOperacion(IOperacion operacion) {
         System.out.println("\n" + operacion.getNombre());
         do {

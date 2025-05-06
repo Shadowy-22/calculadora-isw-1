@@ -1,10 +1,19 @@
-package Validators;
+package CalculadoraBasica.Validators;
 
 import java.util.Scanner;
 
+/**
+ * Clase utilitaria para manejar la entrada del usuario con validación.
+ * Proporciona métodos estáticos para leer diferentes tipos de entrada.
+ */
 public class EntradaUsuario {
     private static final Scanner scanner = new Scanner(System.in);
 
+    /**
+     * Lee un número entero positivo de la entrada estándar.
+     * @param mensaje Mensaje a mostrar al usuario
+     * @return Número positivo válido ingresado por el usuario
+     */
     public static int leerNumeroPositivo(String mensaje) {
         int numero;
         while (true) {
@@ -20,6 +29,11 @@ public class EntradaUsuario {
         }
     }
 
+     /**
+     * Solicita confirmación al usuario para continuar una operación.
+     * @param operacion Nombre de la operación actual para mostrar en el mensaje
+     * @return true si el usuario desea continuar, false en caso contrario
+     */
     public static boolean confirmarContinuar(String operacion) {
         String opcion;
         while (true) {
@@ -32,6 +46,10 @@ public class EntradaUsuario {
         }
     }
 
+    /**
+     * Lee una opción de menú válida (0-4).
+     * @return Opción numérica válida seleccionada por el usuario
+     */
     public static int leerOpcionMenu() {
         int opcion;
         while (true) {

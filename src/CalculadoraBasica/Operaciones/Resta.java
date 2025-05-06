@@ -1,8 +1,14 @@
-package Operaciones;
+package CalculadoraBasica.Operaciones;
 
-import Interfaces.IOperacion;
+import CalculadoraBasica.Interfaces.IOperacion;
 
 public class Resta implements IOperacion {
+    /**
+     * Calcula la diferencia entre dos números enteros.
+     * @param a Minuendo (valor inicial)
+     * @param b Sustraendo (valor a restar)
+     * @return Resultado no negativo de la resta (a - b o b - a)
+     */
     @Override
     public int calcular(int a, int b) {
         // Swap si b > a para evitar resultados negativos
