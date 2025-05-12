@@ -8,6 +8,7 @@ import CalculadoraBasica.Validators.EntradaUsuario;
  * Clase principal que implementa una calculadora con operaciones básicas.
  * Maneja el flujo principal de la aplicación y la interacción con el usuario.
  */
+
 public class Calculadora {
 
     /**

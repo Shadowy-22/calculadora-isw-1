@@ -6,10 +6,9 @@ import CalculadoraBasica.Interfaces.IOperacion;
  * Implementación de la operación de suma aritmética.
  * Realiza la adición de dos números enteros.
  */
-public class Suma implements IOperacion {
-    
+public class Suma implements IOperacion {  
      /**
-     * Calcula la suma de dos números enteros.
+     * Calcula la suma de dos números enteros positivos.
      * @param a Primer sumando
      * @param b Segundo sumando
      * @return Resultado de la suma (a + b)

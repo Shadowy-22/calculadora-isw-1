@@ -8,7 +8,7 @@ import CalculadoraBasica.Interfaces.IOperacion;
  */
 public class Multiplicacion implements IOperacion {
     /**
-     * Calcula el producto de dos números enteros.
+     * Calcula el producto de dos números enteros positivos.
      * @param a Multiplicando (primer operando)
      * @param b Multiplicador (segundo operando)
      * @return Resultado de la multiplicación (a × b)

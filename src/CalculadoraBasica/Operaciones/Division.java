@@ -9,6 +9,12 @@ import CalculadoraBasica.Interfaces.IOperacion;
  * - Caso especial cuando el dividendo es cero
  */
 public class Division implements IOperacion {
+     /**
+     * Calcula la división entre dos números enteros positivos.
+     * @param a Dividendo (numero a dividir)
+     * @param b Divisor (numero que divide)
+     * @return Resultado no negativo de la division (a / b o b / a)
+     */
     @Override
     public int calcular(int a, int b) {
         // Validar divisor != 0
